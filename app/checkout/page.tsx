@@ -1,7 +1,6 @@
 'use client'
 import { motion } from 'framer-motion'
 import { MapPin, CreditCard, Truck, CheckCircle } from 'lucide-react'
-import NeonButton from '@/components/NeonButton'
 import { useState } from 'react'
 
 export default function Checkout() {
@@ -41,9 +40,12 @@ export default function Checkout() {
               </div>
             </div>
             <div className="flex gap-4 pt-8 border-t border-white/20">
-              <NeonButton className="flex-1" onClick={() => setStep(2)}>
+              <button 
+                className="flex-1 px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-lg transition-all shadow-lg hover:shadow-orange-500/50"
+                onClick={() => setStep(2)}
+              >
                 Prosegui a Pagamento
-              </NeonButton>
+              </button>
             </div>
           </motion.div>
         )}
@@ -74,12 +76,18 @@ export default function Checkout() {
               ))}
             </div>
             <div className="flex gap-4 pt-8 border-t border-white/20">
-              <NeonButton className="flex-1 !bg-gray-800 !text-white !border-2 !border-white/50" onClick={() => setStep(1)}>
+              <button 
+                className="flex-1 px-6 py-3 bg-gray-800 hover:bg-gray-700 text-white font-bold rounded-lg border-2 border-white/50 transition-all"
+                onClick={() => setStep(1)}
+              >
                 ← Indietro
-              </NeonButton>
-              <NeonButton className="flex-1" onClick={() => setStep(3)}>
+              </button>
+              <button 
+                className="flex-1 px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-lg transition-all shadow-lg hover:shadow-orange-500/50"
+                onClick={() => setStep(3)}
+              >
                 Conferma Ordine
-              </NeonButton>
+              </button>
             </div>
           </motion.div>
         )}
@@ -104,9 +112,9 @@ export default function Checkout() {
                 <div className="text-xl text-white/80">Tempo stimato di arrivo</div>
               </div>
             </div>
-            <NeonButton className="text-xl px-16 py-8">
+            <button className="text-xl px-16 py-8 bg-orange-500 hover:bg-orange-600 text-white font-bold rounded-lg shadow-lg hover:shadow-orange-500/50 transition-all">
               Traccia Ordine Live
-            </NeonButton>
+            </button>
           </motion.div>
         )}
       </div>

@@ -1,6 +1,5 @@
 'use client'
 import { motion } from 'framer-motion'
-import NeonButton from '@/components/NeonButton'
 import Link from 'next/link'
 
 const categories = [
@@ -49,9 +48,13 @@ export default function Prodotti() {
         </div>
 
         <div className="text-center">
-          <NeonButton asChild>
+          <motion.button 
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="px-12 py-4 bg-gradient-to-r from-orange-500 to-yellow-500 text-black font-bold rounded-xl shadow-2xl hover:shadow-yellow-500/50 transition-all text-lg"
+          >
             <Link href="/checkout">Vai al Carrello</Link>
-          </NeonButton>
+          </motion.button>
         </div>
       </motion.div>
     </main>
