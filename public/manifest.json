@@ -1,0 +1,16 @@
+{
+  "name": "Taxi Pollo",
+  "short_name": "Taxi Pollo", 
+  "description": "Carne fresca in 30 min",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "lang": "it",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any"
+    }
+  ]
+}

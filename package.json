@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint",
+    "export": "next build",
+    "preview": "npx serve out",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "date-fns": "^4.1.0",
@@ -27,6 +30,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.1.1",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "serve": "^14.2.4"
   }
 }
