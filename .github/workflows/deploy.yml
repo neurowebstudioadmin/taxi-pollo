@@ -12,6 +12,8 @@ jobs:
         node-version: '20'
     - run: npm ci
     - run: npm run build
+    - name: Export static files
+      run: npx next export
     - uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
