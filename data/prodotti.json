@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1766842838502",
+    "nome": "salsiccia di cavallo",
+    "descrizione": "buona e succulosa",
+    "prezzo": 12,
+    "categoria": "specialità ",
+    "disponibile": true
+  },
+  {
+    "id": "1766929408698",
+    "nome": "francesco",
+    "descrizione": "ciniero",
+    "prezzo": 12,
+    "categoria": "pollo",
+    "disponibile": true
+  }
+]

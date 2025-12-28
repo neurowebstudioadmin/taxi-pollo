@@ -1,0 +1,52 @@
+{
+  "settimana": [
+    {
+      "giorno": "Lunedì",
+      "data": "2026-01-01",
+      "citta": [
+        "Barletta"
+      ],
+      "orario": "16:00 - 18:00",
+      "luogo": "parcheggio"
+    },
+    {
+      "giorno": "Martedì",
+      "data": "2025-12-01",
+      "citta": [
+        "Canosa"
+      ],
+      "orario": "18:00 - 20:00",
+      "luogo": "hotel"
+    },
+    {
+      "giorno": "Mercoledì",
+      "citta": [],
+      "orario": "",
+      "luogo": ""
+    },
+    {
+      "giorno": "Giovedì",
+      "citta": [],
+      "orario": "",
+      "luogo": ""
+    },
+    {
+      "giorno": "Venerdì",
+      "citta": [],
+      "orario": "",
+      "luogo": ""
+    },
+    {
+      "giorno": "Sabato",
+      "citta": [],
+      "orario": "",
+      "luogo": ""
+    },
+    {
+      "giorno": "Domenica",
+      "citta": [],
+      "orario": "",
+      "luogo": ""
+    }
+  ]
+}
